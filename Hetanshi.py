@@ -46,3 +46,8 @@ plt.title(f'Distribution of Portfolio {return_window}-Day Returns (Dollar Value)
 plt.axvline(-VaR, color='r', linestyle='dashed', linewidth=2, label=f'VaR at {confidence_interval:.0%} confidence level')
 plt.legend()
 plt.show()
+
+output = "This is my script's output."
+with open("Hetanshi.txt", "w") as file:
+    file.write(output)
+
